@@ -1,0 +1,4 @@
+a new message template for {subject}
+Name:{name}
+email:{email}
+message: {getmessage}

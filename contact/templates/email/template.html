@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ subject }}</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f9f9f9;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        background: #fff;
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      }
+      h1 {
+        color: #333;
+      }
+      p {
+        color: #555;
+      }
+      .footer {
+        margin-top: 30px;
+        font-size: 12px;
+        color: #aaa;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>{{ subject }}</h1>
+      <p>Hello {{ name }},</p>
+      <p>{{ message }}</p>
+      <p>Best regards,<br />{{ name }}</p>
+      <div class="footer">
+        &copy; . All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>
